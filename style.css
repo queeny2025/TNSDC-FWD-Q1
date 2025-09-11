@@ -1,0 +1,173 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Global Settings */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header .logo {
+    font-size: 2em;
+    color: #ffd700; /* Yellow */
+}
+
+.header .navbar a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.header .navbar a:hover {
+    color: #ffd700; /* Yellow */
+}
+
+/* Home Section */
+.home {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.home h1 {
+    font-size: 3em;
+    color: #ffd700; /* Yellow */
+}
+
+.home h2 {
+    font-size: 1.5em;
+}
+
+/* About Section */
+.about {
+    background-color: #fff;
+    color: #333;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2em;
+}
+
+.about .title span {
+    color: #ffd700; /* Yellow */
+}
+
+/* Education Section */
+.education {
+    background-color: #f7f7f7;
+    padding: 50px 20px;
+}
+
+.education .title {
+    font-size: 2em;
+    text-align: center;
+}
+
+.education .box {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.education .year {
+    color: #ffd700; /* Yellow */
+}
+
+/* Skills Section */
+.skills {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.skills .title {
+    text-align: center;
+    font-size: 2em;
+}
+
+.skills .skill-title {
+    font-size: 1.5em;
+}
+
+.skills .single-skill {
+    margin: 20px 0;
+}
+
+.skills .topic {
+    font-weight: bold;
+}
+
+.skills .progress-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.skills .progress {
+    background-color: #ffd700; /* Yellow */
+    height: 8px;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f7f7f7;
+    padding: 50px 20px;
+}
+
+.contact .title {
+    font-size: 2em;
+    text-align: center;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact .btn {
+    background-color: #ffd700; /* Yellow */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact .btn:hover {
+    background-color: #cc9d00;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 1em;
+    color: #ffd700; /* Yellow */
+}
